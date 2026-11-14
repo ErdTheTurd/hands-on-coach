@@ -1,0 +1,5 @@
+Newsreader, Copyright 2019 The Newsreader Project Authors
+https://github.com/productiontype/Newsreader
+Source Sans 3, Copyright 2010-2022 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'.
+Both fonts are licensed under the SIL Open Font License, Version 1.1.
+https://scripts.sil.org/OFL

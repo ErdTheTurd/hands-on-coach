@@ -23,18 +23,18 @@
   <link rel="icon" href="assets/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
-  <meta name="theme-color" content="#080c10">
+  <meta name="theme-color" content="#f3eee5">
+  <link rel="preload" href="assets/fonts/newsreader.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/source-sans.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
-  <header class="site-header">
-    <div class="nav">
-      <a class="brand" href="index.html">
-        <img src="assets/icon-192.png" width="36" height="36" alt="">
-        <span>Hands-On Coach</span>
-      </a>
-      <ul class="nav-links">
+  <header class="masthead">
+    <div class="wrap masthead-inner">
+      <a class="wordmark" href="index.html">Hands-On Coach<small>a free app by Edward Dunn</small></a>
+      <ul class="site-nav">
+        <li><a href="index.html#piano">Piano</a></li>
         <li><a href="index.html#skills">Skills</a></li>
         <li><a href="index.html#vision">Vision Pro</a></li>
         <li><a href="privacy.html">Privacy</a></li>
@@ -42,33 +42,37 @@
       </ul>
     </div>
   </header>
-  <main id="main" class="page">
-    <h1>Support</h1>
-    <p>Hands-On Coach is a free app for iPhone, iPad, and Apple Vision Pro. It is not on the App Store yet. If you need help, start with the questions below, or email Edward Dunn at <a href="mailto:erdunn706@gmail.com?subject=Hands-On%20Coach%20support">erdunn706@gmail.com</a>.</p>
 
-    <dl class="faq">
-      <dt>What is Demo Mode?</dt>
-      <dd>Demo Mode lets you try every lesson with virtual instruments. You do not need a real piano, guitar, camera, or microphone. It is on by default when you first open the app, so you can go through a lesson right away.</dd>
+  <main id="main">
+    <article class="wrap page">
+      <h1>Support</h1>
+      <p>Hands-On Coach is a free app for iPhone, iPad, and Apple Vision Pro. It is not on the App Store yet. If you need help, start with the questions below, or email Edward Dunn at <a href="mailto:erdunn706@gmail.com?subject=Hands-On%20Coach%20support">erdunn706@gmail.com</a>.</p>
 
-      <dt>Why does the app ask for camera or microphone access?</dt>
-      <dd>Only if you use live checking. The microphone can check piano notes and guitar chords. The camera and on-device hand pose can check piano fingering, knot grips, and ASL fingerspelling. That work happens on your device only. Nothing is recorded or uploaded. You can say no to these permissions and keep using Demo Mode.</dd>
+      <dl class="faq">
+        <dt>What is Demo Mode?</dt>
+        <dd>Demo Mode lets you try every lesson with virtual instruments. You do not need a real piano, guitar, camera, or microphone. It is on by default when you first open the app, so you can go through a lesson right away.</dd>
 
-      <dt>How do I reset my progress?</dt>
-      <dd>Progress is stored only on that device. There is no account and no cloud backup. Removing the app from the device deletes that local progress. Installing it again starts you over on that device.</dd>
+        <dt>Why does the app ask for camera or microphone access?</dt>
+        <dd>Only if you use live checking. The microphone can check piano notes and guitar chords. The camera and on-device hand pose can check piano fingering, knot grips, and ASL fingerspelling. That work happens on your device only. Nothing is recorded or uploaded. You can say no to these permissions and keep using Demo Mode.</dd>
 
-      <dt>Does it work on Apple Vision Pro?</dt>
-      <dd>Yes. On Vision Pro, open the Piano skill and start immersive practice to place a floating 3D piano in your space. Hand tracking is used only on the device to detect key presses. The same ghost-hand coaching is there.</dd>
+        <dt>How do I reset my progress?</dt>
+        <dd>Progress is stored only on that device. There is no account and no cloud backup. Removing the app from the device deletes that local progress. Installing it again starts you over on that device.</dd>
 
-      <dt>Is my data uploaded somewhere?</dt>
-      <dd>No. There is no account, no ads, and no tracking. Progress stays on your device. For the details, see the <a href="privacy.html">privacy policy</a>.</dd>
-    </dl>
+        <dt>Does it work on Apple Vision Pro?</dt>
+        <dd>Yes. On Vision Pro, open the Piano skill and start immersive practice to place a floating 3D piano in your space. Hand tracking is used only on the device to detect key presses. The same ghost-hand coaching is there.</dd>
 
-    <h2>Contact</h2>
-    <p>Email <a href="mailto:erdunn706@gmail.com?subject=Hands-On%20Coach%20support">erdunn706@gmail.com</a> and include which device you are using (iPhone, iPad, or Vision Pro) and what you were trying to do. I will get back to you as soon as I can.</p>
+        <dt>Is my data uploaded somewhere?</dt>
+        <dd>No. There is no account, no ads, and no tracking. Progress stays on your device. For the details, see the <a href="privacy.html">privacy policy</a>.</dd>
+      </dl>
+
+      <h2>Contact</h2>
+      <p>Email <a href="mailto:erdunn706@gmail.com?subject=Hands-On%20Coach%20support">erdunn706@gmail.com</a> and include which device you are using (iPhone, iPad, or Vision Pro) and what you were trying to do. I will get back to you as soon as I can.</p>
+    </article>
 
   </main>
-  <footer class="site-footer">
-    <div class="foot">
+
+  <footer class="colophon">
+    <div class="wrap colophon-inner">
       <p>&copy; 2026 Edward Dunn</p>
       <nav aria-label="Footer">
         <a href="privacy.html">Privacy</a>
@@ -78,3 +82,4 @@
   </footer>
 </body>
 </html>
+

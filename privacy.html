@@ -23,18 +23,18 @@
   <link rel="icon" href="assets/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
-  <meta name="theme-color" content="#080c10">
+  <meta name="theme-color" content="#f3eee5">
+  <link rel="preload" href="assets/fonts/newsreader.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/source-sans.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
-  <header class="site-header">
-    <div class="nav">
-      <a class="brand" href="index.html">
-        <img src="assets/icon-192.png" width="36" height="36" alt="">
-        <span>Hands-On Coach</span>
-      </a>
-      <ul class="nav-links">
+  <header class="masthead">
+    <div class="wrap masthead-inner">
+      <a class="wordmark" href="index.html">Hands-On Coach<small>a free app by Edward Dunn</small></a>
+      <ul class="site-nav">
+        <li><a href="index.html#piano">Piano</a></li>
         <li><a href="index.html#skills">Skills</a></li>
         <li><a href="index.html#vision">Vision Pro</a></li>
         <li><a href="privacy.html" aria-current="page">Privacy</a></li>
@@ -42,45 +42,49 @@
       </ul>
     </div>
   </header>
-  <main id="main" class="page">
-    <h1>Privacy Policy</h1>
-    <p class="updated">Effective November 14, 2026</p>
-    <p>Hands-On Coach is made by Edward Dunn. This policy describes how the iPhone, iPad, and Apple Vision Pro app handles information. The short version: the app does not collect your data, and it does not send it anywhere.</p>
 
-    <h2>What we collect</h2>
-    <p>We do not collect data from this app. There is no account. There are no ads. There is no tracking, and there are no third-party analytics or advertising SDKs.</p>
+  <main id="main">
+    <article class="wrap page">
+      <h1>Privacy Policy</h1>
+      <p class="updated">Effective November 14, 2026</p>
+      <p>Hands-On Coach is made by Edward Dunn. This policy describes how the iPhone, iPad, and Apple Vision Pro app handles information. The short version: the app does not collect your data, and it does not send it anywhere.</p>
 
-    <h2>Camera, microphone, and hand tracking</h2>
-    <p>Some lessons can use the camera, the microphone, or hand tracking to check your fingering, your handshape, or whether a chord is in tune:</p>
-    <ul>
-      <li>The microphone can check piano notes and guitar chords.</li>
-      <li>The camera and on-device hand pose can check piano fingering, knot grips, and ASL fingerspelling handshapes.</li>
-      <li>On Apple Vision Pro, hand tracking can detect key presses on the floating 3D piano.</li>
-    </ul>
-    <p>This information is processed on your device only, in real time. It is not recorded, stored off the device, or uploaded. You can decline these permissions and still use Demo Mode with virtual instruments.</p>
+      <h2>What we collect</h2>
+      <p>We do not collect data from this app. There is no account. There are no ads. There is no tracking, and there are no third-party analytics or advertising SDKs.</p>
 
-    <h2>Progress and reminders</h2>
-    <p>Lesson progress, streaks, daily goals, and achievements are stored locally on the device you are using. They do not sync to a server, and they do not sync across devices.</p>
-    <p>Optional practice reminders are scheduled on your device. They are not sent by us.</p>
+      <h2>Camera, microphone, and hand tracking</h2>
+      <p>Some lessons can use the camera, the microphone, or hand tracking to check your fingering, your handshape, or whether a chord is in tune:</p>
+      <ul>
+        <li>The microphone can check piano notes and guitar chords.</li>
+        <li>The camera and on-device hand pose can check piano fingering, knot grips, and ASL fingerspelling handshapes.</li>
+        <li>On Apple Vision Pro, hand tracking can detect key presses on the floating 3D piano.</li>
+      </ul>
+      <p>This information is processed on your device only, in real time. It is not recorded, stored off the device, or uploaded. You can decline these permissions and still use Demo Mode with virtual instruments.</p>
 
-    <h2>Internet and accounts</h2>
-    <p>The app is designed to work without an internet connection and without an account. We do not ask you to create a login, and we do not operate a backend for this app that receives your lesson data.</p>
+      <h2>Progress and reminders</h2>
+      <p>Lesson progress, streaks, daily goals, and achievements are stored locally on the device you are using. They do not sync to a server, and they do not sync across devices.</p>
+      <p>Optional practice reminders are scheduled on your device. They are not sent by us.</p>
 
-    <h2>Children</h2>
-    <p>Hands-On Coach is a general-audience app. Because we do not collect personal data, we do not knowingly collect personal information from children either.</p>
+      <h2>Internet and accounts</h2>
+      <p>The app is designed to work without an internet connection and without an account. We do not ask you to create a login, and we do not operate a backend for this app that receives your lesson data.</p>
 
-    <h2>This website</h2>
-    <p>This marketing site is hosted on GitHub Pages. It does not use analytics cookies, and it does not ask you to create an account. If you email for support, that message is handled as ordinary email.</p>
+      <h2>Children</h2>
+      <p>Hands-On Coach is a general-audience app. Because we do not collect personal data, we do not knowingly collect personal information from children either.</p>
 
-    <h2>Changes</h2>
-    <p>If this policy changes, the new version will be posted at this URL with an updated effective date.</p>
+      <h2>This website</h2>
+      <p>This marketing site is hosted on GitHub Pages. It does not use analytics cookies, and it does not ask you to create an account. If you email for support, that message is handled as ordinary email.</p>
 
-    <h2>Contact</h2>
-    <p>Questions about privacy can be sent to <a href="mailto:erdunn706@gmail.com?subject=Hands-On%20Coach%20privacy">erdunn706@gmail.com</a>.</p>
+      <h2>Changes</h2>
+      <p>If this policy changes, the new version will be posted at this URL with an updated effective date.</p>
+
+      <h2>Contact</h2>
+      <p>Questions about privacy can be sent to <a href="mailto:erdunn706@gmail.com?subject=Hands-On%20Coach%20privacy">erdunn706@gmail.com</a>.</p>
+    </article>
 
   </main>
-  <footer class="site-footer">
-    <div class="foot">
+
+  <footer class="colophon">
+    <div class="wrap colophon-inner">
       <p>&copy; 2026 Edward Dunn</p>
       <nav aria-label="Footer">
         <a href="privacy.html" aria-current="page">Privacy</a>
@@ -90,3 +94,4 @@
   </footer>
 </body>
 </html>
+
