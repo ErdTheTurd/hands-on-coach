@@ -1,6 +1,6 @@
-# Hands-On Coach
+# Fingerwiz
 
-Public marketing site for the Hands-On Coach app (iPhone, iPad, and Apple Vision Pro).
+Public marketing site for the Fingerwiz app (iPhone, iPad, and Apple Vision Pro).
 
 This repository is the website only. It does not contain app source code.
 
